@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Acme Phone X",
+    "description": "A fast smartphone with great battery life and a crisp OLED screen.",
+    "rating": 4.5,
+    "stock": 42,
+    "price": 699,
+    "metadata": { "ram": "8GB", "screenSize": "6.1 inch" }
+  },
+  {
+    "title": "Acme Phone Lite",
+    "description": "Budget-friendly phone with decent performance and long battery life.",
+    "rating": 4.0,
+    "stock": 128,
+    "price": 299,
+    "metadata": { "ram": "4GB", "screenSize": "5.8 inch" }
+  },
+  {
+    "title": "ProTablet 11",
+    "description": "Lightweight tablet for creatives with stylus support and beautiful display.",
+    "rating": 4.7,
+    "stock": 18,
+    "price": 899,
+    "metadata": { "ram": "6GB", "screenSize": "11 inch" }
+  },
+  {
+    "title": "UltraBook 14",
+    "description": "Thin and powerful laptop for professionals, excellent keyboard and trackpad.",
+    "rating": 4.6,
+    "stock": 12,
+    "price": 1299,
+    "metadata": { "ram": "16GB", "screenSize": "14 inch" }
+  },
+  {
+    "title": "Budget Earbuds",
+    "description": "Affordable earbuds with good sound quality and a compact case.",
+    "rating": 3.9,
+    "stock": 500,
+    "price": 49,
+    "metadata": { "batteryLife": "12h" }
+  },
+  {
+    "title": "NoiseCancel Pro",
+    "description": "Premium over-ear headphones with active noise cancellation.",
+    "rating": 4.8,
+    "stock": 34,
+    "price": 349,
+    "metadata": { "batteryLife": "30h" }
+  },
+  {
+    "title": "SmartWatch Series 3",
+    "description": "Track your fitness and health metrics with precision sensors.",
+    "rating": 4.2,
+    "stock": 200,
+    "price": 199,
+    "metadata": { "batteryLife": "2d" }
+  },
+  {
+    "title": "Gaming Mouse V2",
+    "description": "Ergonomic mouse with high-precision sensor for gamers.",
+    "rating": 4.4,
+    "stock": 150,
+    "price": 79,
+    "metadata": { "dpi": "16000" }
+  },
+  {
+    "title": "4K Monitor 27",
+    "description": "High-resolution monitor with vibrant colors and adjustable stand.",
+    "rating": 4.3,
+    "stock": 60,
+    "price": 399,
+    "metadata": { "screenSize": "27 inch" }
+  },
+  {
+    "title": "Portable Charger 20k",
+    "description": "High-capacity powerbank to keep your devices charged on the go.",
+    "rating": 4.1,
+    "stock": 320,
+    "price": 59,
+    "metadata": { "capacity": "20000mAh" }
+  }
+]

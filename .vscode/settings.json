@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^node -e \"import\\('\\./src/services/scraperService\\.js'\\)\\.then\\(m=>console\\.log\\('scraper loaded', Object\\.keys\\(m\\)\\)\\)\\.catch\\(e=>\\{console\\.error\\('scraper load failed', e\\); process\\.exit\\(1\\)\\}\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

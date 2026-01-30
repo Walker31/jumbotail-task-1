@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin Bootstrap</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    input, button { padding: 8px; margin: 4px 0; width: 100%; }
+    #logs { white-space: pre-wrap; background:#f6f6f6; padding:10px; height:300px; overflow:auto; border:1px solid #ddd }
+    .row { display:flex; gap:8px }
+    .col { flex:1 }
+  </style>
+</head>
+<body>
+  <h2>Admin - Bootstrap Scraper 💾</h2>
+  <label>Categories (comma-separated)</label>
+  <input id="categories" value="mobiles,laptops,headphones" />
+  <div class="row">
+    <div class="col">
+      <label>Pages per category</label>
+      <input id="pages" value="3" />
+    </div>
+    <div class="col">
+      <label>Delay per page (ms)</label>
+      <input id="delay" value="600" />
+    </div>
+  </div>
+  <label><input type="checkbox" id="persist" checked /> Persist to DB</label>
+  <label>Admin token (if set)</label>
+  <input id="token" placeholder="x-admin-token" />
+  <button id="startBtn">Start Bootstrap</button>
+
+  <h3>Progress</h3>
+  <div id="status">Idle</div>
+  <div id="logs"></div>
+
+  <script src="/admin/admin.js"></script>
+</body>
+</html>
