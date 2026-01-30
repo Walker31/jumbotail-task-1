@@ -139,6 +139,3 @@ Security & next steps 🔒
 - Add tests for `RankingService` and API endpoints to lock behavior and regression tests.
 
 ---
-
-If you'd like, I can add code examples for `curl` commands or Postman collections next. Let me know which you'd prefer.
-
